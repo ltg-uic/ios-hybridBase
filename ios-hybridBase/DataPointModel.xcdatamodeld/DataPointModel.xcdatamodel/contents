@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5041" systemVersion="13B42" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ConfigurationInfo" syncable="YES">
+        <attribute name="run_id" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="nonPlayers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="NonPlayerDataPoint" syncable="YES"/>
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PlayerDataPoint" inverseName="configurationInfo" inverseEntity="PlayerDataPoint" syncable="YES"/>
+    </entity>
+    <entity name="EventInfo" syncable="YES">
+        <attribute name="event_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rfid_tag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="NonPlayerDataPoint" parentEntity="PlayerDataPoint" syncable="YES">
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PlayerDataPoint" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rfid_tag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="student" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="configurationInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ConfigurationInfo" inverseName="players" inverseEntity="ConfigurationInfo" syncable="YES"/>
+    </entity>
+    <fetchRequest name="allConfigurationInfos" entity="ConfigurationInfo"/>
+    <fetchRequest name="allNonPlayerDataPoints" entity="NonPlayerDataPoint"/>
+    <fetchRequest name="allPlayerDataPoints" entity="PlayerDataPoint"/>
+    <fetchRequest name="configurationInfoWithRunId" entity="ConfigurationInfo" predicateString="run_id == run_id"/>
+    <fetchRequest name="playerDataPointWithRFID" entity="PlayerDataPoint" predicateString="rfid == rfid"/>
+    <elements>
+        <element name="ConfigurationInfo" positionX="-252" positionY="233" width="128" height="88"/>
+        <element name="PlayerDataPoint" positionX="-236" positionY="-180" width="128" height="133"/>
+        <element name="EventInfo" positionX="-171" positionY="-375" width="128" height="105"/>
+        <element name="NonPlayerDataPoint" positionX="34" positionY="-82" width="128" height="58"/>
+    </elements>
+</model>
