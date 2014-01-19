@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5041" systemVersion="13B42" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0"
+       lastSavedToolsVersion="5041" systemVersion="13B42" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic"
+       iOSVersion="Automatic">
     <entity name="ConfigurationInfo" syncable="YES">
         <attribute name="run_id" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="nonPlayers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="NonPlayerDataPoint" syncable="YES"/>
-        <relationship name="players" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PlayerDataPoint" inverseName="configurationInfo" inverseEntity="PlayerDataPoint" syncable="YES"/>
+        <relationship name="nonPlayers" optional="YES" toMany="YES" deletionRule="Nullify"
+                      destinationEntity="NonPlayerDataPoint" syncable="YES"/>
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Nullify"
+                      destinationEntity="PlayerDataPoint" inverseName="configurationInfo"
+                      inverseEntity="PlayerDataPoint" syncable="YES"/>
     </entity>
     <entity name="EventInfo" syncable="YES">
         <attribute name="event_type" optional="YES" attributeType="String" syncable="YES"/>
@@ -20,7 +25,9 @@
         <attribute name="rfid_tag" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="score" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <attribute name="student" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <relationship name="configurationInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ConfigurationInfo" inverseName="players" inverseEntity="ConfigurationInfo" syncable="YES"/>
+        <relationship name="configurationInfo" optional="YES" maxCount="1" deletionRule="Nullify"
+                      destinationEntity="ConfigurationInfo" inverseName="players" inverseEntity="ConfigurationInfo"
+                      syncable="YES"/>
     </entity>
     <fetchRequest name="allConfigurationInfos" entity="ConfigurationInfo"/>
     <fetchRequest name="allNonPlayerDataPoints" entity="NonPlayerDataPoint"/>

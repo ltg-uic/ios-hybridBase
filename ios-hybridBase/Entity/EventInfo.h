@@ -12,9 +12,9 @@
 
 @interface EventInfo : NSManagedObject
 
-@property (nonatomic, retain) NSString * event_type;
-@property (nonatomic, retain) NSString * rfid_tag;
-@property (nonatomic) float score;
-@property (nonatomic) NSTimeInterval timestamp;
+@property(nonatomic, retain) NSString *event_type;
+@property(nonatomic, retain) NSString *rfid_tag;
+@property(nonatomic, retain) NSNumber *score;
+@property(nonatomic, retain) NSDate *timestamp;
 
 @end

@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		70374945188B120C003FF5E5 /* DataPointModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70374943188B120C003FF5E5 /* DataPointModel.xcdatamodeld */; };
 		70374949188B1748003FF5E5 /* ConfigurationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 70374948188B1748003FF5E5 /* ConfigurationInfo.m */; };
-		7037494C188B1748003FF5E5 /* PlayerDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7037494B188B1748003FF5E5 /* PlayerDataPoint.m */; };
-		7037494F188B1748003FF5E5 /* EventInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7037494E188B1748003FF5E5 /* EventInfo.m */; };
 		70374952188B1748003FF5E5 /* NonPlayerDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 70374951188B1748003FF5E5 /* NonPlayerDataPoint.m */; };
+		70AC364E188B6F7700F5A4AB /* PlayerDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AC364D188B6F7700F5A4AB /* PlayerDataPoint.m */; };
+		70AC3651188B716100F5A4AB /* EventInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AC3650188B716100F5A4AB /* EventInfo.m */; };
 		A5B50DB446B7403AA30CFDF3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EA3DFEADB045ACB4BDCDE3 /* libPods.a */; };
 		C0A7D07AE48F9BBA87450292 /* WizardStudentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D2E6D7F18F828856761F /* WizardStudentCell.m */; };
 		C0A7D095BEBB02298FEEB9FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0A7DBD81CB60F79171837CF /* InfoPlist.strings */; };
@@ -56,12 +56,12 @@
 		70374946188B1721003FF5E5 /* default.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = default.xcdatamodel; sourceTree = "<group>"; };
 		70374947188B1748003FF5E5 /* ConfigurationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationInfo.h; sourceTree = "<group>"; };
 		70374948188B1748003FF5E5 /* ConfigurationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationInfo.m; sourceTree = "<group>"; };
-		7037494A188B1748003FF5E5 /* PlayerDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDataPoint.h; sourceTree = "<group>"; };
-		7037494B188B1748003FF5E5 /* PlayerDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDataPoint.m; sourceTree = "<group>"; };
-		7037494D188B1748003FF5E5 /* EventInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventInfo.h; sourceTree = "<group>"; };
-		7037494E188B1748003FF5E5 /* EventInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventInfo.m; sourceTree = "<group>"; };
 		70374950188B1748003FF5E5 /* NonPlayerDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonPlayerDataPoint.h; sourceTree = "<group>"; };
 		70374951188B1748003FF5E5 /* NonPlayerDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonPlayerDataPoint.m; sourceTree = "<group>"; };
+		70AC364C188B6F7700F5A4AB /* PlayerDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDataPoint.h; sourceTree = "<group>"; };
+		70AC364D188B6F7700F5A4AB /* PlayerDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDataPoint.m; sourceTree = "<group>"; };
+		70AC364F188B716100F5A4AB /* EventInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventInfo.h; sourceTree = "<group>"; };
+		70AC3650188B716100F5A4AB /* EventInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventInfo.m; sourceTree = "<group>"; };
 		B5EA3DFEADB045ACB4BDCDE3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A7D0111E2CD2FC38D79782 /* WizardClassPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardClassPageViewController.m; sourceTree = "<group>"; };
 		C0A7D025B0879E2029FC2441 /* ios-hybridBase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-hybridBase-Prefix.pch"; sourceTree = "<group>"; };
@@ -135,12 +135,12 @@
 			isa = PBXGroup;
 			children = (
 				70374943188B120C003FF5E5 /* DataPointModel.xcdatamodeld */,
+				70AC364F188B716100F5A4AB /* EventInfo.h */,
+				70AC3650188B716100F5A4AB /* EventInfo.m */,
+				70AC364C188B6F7700F5A4AB /* PlayerDataPoint.h */,
+				70AC364D188B6F7700F5A4AB /* PlayerDataPoint.m */,
 				70374950188B1748003FF5E5 /* NonPlayerDataPoint.h */,
 				70374951188B1748003FF5E5 /* NonPlayerDataPoint.m */,
-				7037494D188B1748003FF5E5 /* EventInfo.h */,
-				7037494E188B1748003FF5E5 /* EventInfo.m */,
-				7037494A188B1748003FF5E5 /* PlayerDataPoint.h */,
-				7037494B188B1748003FF5E5 /* PlayerDataPoint.m */,
 				70374947188B1748003FF5E5 /* ConfigurationInfo.h */,
 				70374948188B1748003FF5E5 /* ConfigurationInfo.m */,
 			);
@@ -398,9 +398,8 @@
 				C0A7D217CFF3817925975C39 /* main.m in Sources */,
 				C0A7D15901A39E8C6D079AF0 /* AppDelegate.m in Sources */,
 				70374952188B1748003FF5E5 /* NonPlayerDataPoint.m in Sources */,
+				70AC3651188B716100F5A4AB /* EventInfo.m in Sources */,
 				C0A7DAFE87F459A50D63591F /* ViewController.m in Sources */,
-				7037494F188B1748003FF5E5 /* EventInfo.m in Sources */,
-				7037494C188B1748003FF5E5 /* PlayerDataPoint.m in Sources */,
 				C0A7DEAA28AF7B936B9CC55C /* CoreDataTableViewController.m in Sources */,
 				70374945188B120C003FF5E5 /* DataPointModel.xcdatamodeld in Sources */,
 				C0A7DCCBE44EB975C4184AFF /* SidebarViewController.m in Sources */,
@@ -411,6 +410,7 @@
 				C0A7D8D8586A2263564043E3 /* WizardReviewPageViewController.m in Sources */,
 				C0A7D9D169793C824AB12C7E /* WizardClassPageViewController.m in Sources */,
 				C0A7DE7290D0A5FC3DDF4B51 /* WizardStudentPageViewController.m in Sources */,
+				70AC364E188B6F7700F5A4AB /* PlayerDataPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,9 +503,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"-v",
-				);
+				OTHER_LDFLAGS = "-v";
 				SDKROOT = iphoneos7.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -536,6 +534,7 @@
 				GCC_PREFIX_HEADER = "ios-hybridBase/ios-hybridBase-Prefix.pch";
 				INFOPLIST_FILE = "ios-hybridBase/ios-hybridBase-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -568,9 +567,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = (
-					"-v",
-				);
+				OTHER_LDFLAGS = "-v";
 				SDKROOT = iphoneos7.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -602,6 +599,7 @@
 				GCC_PREFIX_HEADER = "ios-hybridBase/ios-hybridBase-Prefix.pch";
 				INFOPLIST_FILE = "ios-hybridBase/ios-hybridBase-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
