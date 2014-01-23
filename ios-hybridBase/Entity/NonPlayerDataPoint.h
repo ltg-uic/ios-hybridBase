@@ -13,6 +13,6 @@
 
 @interface NonPlayerDataPoint : PlayerDataPoint
 
-@property (nonatomic, retain) NSString * type;
+@property(nonatomic, retain) NSString *type;
 
 @end

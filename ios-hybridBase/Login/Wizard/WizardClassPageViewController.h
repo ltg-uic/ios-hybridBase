@@ -10,9 +10,8 @@
 #import "CoreDataTableViewController.h"
 
 @interface WizardClassPageViewController : CoreDataTableViewController {
-}
 
-@property(nonatomic, retain) NSArray *classes;
+}
 
 - (IBAction)cancelLogin:(id)sender;
 

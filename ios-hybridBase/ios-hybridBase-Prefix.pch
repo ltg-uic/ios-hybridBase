@@ -17,6 +17,7 @@
 #import <CoreData/CoreData.h>
 #import "AppDelegate.h"
 #import "UIColor+Expanded.h"
+#import "Constants.h"
 
 //entity
 #import "EventInfo.h"

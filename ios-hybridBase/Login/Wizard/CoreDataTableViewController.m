@@ -5,6 +5,8 @@
 //  Copyright 2011 Stanford University. All rights reserved.
 //
 
+#import "CoreDataTableViewController.h"
+
 @interface CoreDataTableViewController ()
 @property(nonatomic) BOOL beganUpdates;
 @end
@@ -92,7 +94,7 @@
 - (void)controller:(NSFetchedResultsController *)controller
   didChangeSection:(id <NSFetchedResultsSectionInfo>)sectionInfo
            atIndex:(NSUInteger)sectionIndex
-     forChangeType:(NSFetchedResultsChangeType)type {
+        forChangeType:(NSFetchedResultsChangeType)type {
     if (!self.suspendAutomaticTrackingOfChangesInManagedObjectContext) {
         switch (type) {
             case NSFetchedResultsChangeInsert:
@@ -111,7 +113,7 @@
    didChangeObject:(id)anObject
        atIndexPath:(NSIndexPath *)indexPath
      forChangeType:(NSFetchedResultsChangeType)type
-      newIndexPath:(NSIndexPath *)newIndexPath {
+        newIndexPath:(NSIndexPath *)newIndexPath {
     if (!self.suspendAutomaticTrackingOfChangesInManagedObjectContext) {
         switch (type) {
             case NSFetchedResultsChangeInsert:

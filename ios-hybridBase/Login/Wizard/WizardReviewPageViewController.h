@@ -17,7 +17,6 @@
 @property(nonatomic, retain) ConfigurationInfo *configurationInfo;
 @property(nonatomic, retain) NSString *choosen_student;
 
-
 - (IBAction)cancelLogin:(id)sender;
 
 - (IBAction)doLoginWithStudentName:(id)sender;

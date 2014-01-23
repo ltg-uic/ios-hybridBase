@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import <AudioToolbox/AudioToolbox.h>
-#import "WizardClassPageViewController.h"
 #import "AFNetworking.h"
 #import "SidebarViewController.h"
 #import "ConfigurationInfo.h"
@@ -18,11 +17,6 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate> {
     NSOperationQueue *operationQueue;
-
-@private
-    NSManagedObjectContext *managedObjectContext;
-    NSManagedObjectModel *managedObjectModel;
-    NSPersistentStoreCoordinator *persistentStoreCoordinator;
 }
 
 @property(strong, nonatomic) UIWindow *window;
@@ -35,8 +29,6 @@
 @property(strong, nonatomic) NSMutableDictionary *colorMap;
 @property(strong, nonatomic) ConfigurationInfo *configurationInfo;
 
-//entity methods
-- (NSURL *)applicationDocumentsDirectory;
 
 - (void)setupConfigurationAndRosterWithRunId:(NSString *)run_id WithPatchId:(NSString *)current_patchId;
 

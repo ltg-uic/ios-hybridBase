@@ -8,14 +8,11 @@
 
 #import "WizardStudentPageViewController.h"
 #import "WizardClassCell.h"
-
-@interface WizardClassPageViewController ()
-
-@end
+#import "NSManagedObject+MagicalFinders.h"
+#import "WizardClassPageViewController.h"
 
 @implementation WizardClassPageViewController
 
-@synthesize classes;
 
 - (id)initWithStyle:(UITableViewStyle)style {
     self = [super initWithStyle:style];
@@ -46,7 +43,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - JSON Requests
@@ -85,7 +81,9 @@
 - (void)setupFetchedResultsController {
     NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"ConfigurationInfo"];
     request.sortDescriptors = [NSArray arrayWithObject:[NSSortDescriptor sortDescriptorWithKey:@"run_id" ascending:YES selector:@selector(localizedCaseInsensitiveCompare:)]];
-    //[self setFetchedResultsController: [[NSFetchedResultsController alloc] initWithFetchRequest:request managedObjectContext:self.appDelegate.managedObjectContext sectionNameKeyPath:nil cacheName:nil]];
+
+    NSFetchedResultsController *fetch = [ConfigurationInfo MR_fetchAllSortedBy:@"run_id" ascending:NO withPredicate:nil groupBy:nil delegate:self];
+    [self setFetchedResultsController:fetch];
 
 }
 

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol LoginDelegate;
+
 @interface WizardStudentPageViewController : UICollectionViewController {
 
 }

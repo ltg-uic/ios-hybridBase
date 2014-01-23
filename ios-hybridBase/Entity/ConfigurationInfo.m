@@ -6,8 +6,6 @@
 //  Copyright (c) 2014 Anthony Perritano. All rights reserved.
 //
 
-#import "ConfigurationInfo.h"
-
 
 @implementation ConfigurationInfo
 

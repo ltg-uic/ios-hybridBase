@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MapViewController : UIViewController {
+@interface WebViewNativeViewController : UIViewController {
 }
-
-@property(weak, nonatomic) IBOutlet UIBarButtonItem *revealButtonItem;
 
 @end

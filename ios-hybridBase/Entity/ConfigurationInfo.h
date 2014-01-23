@@ -12,21 +12,27 @@
 
 @interface ConfigurationInfo : NSManagedObject
 
-@property (nonatomic, retain) NSString * run_id;
-@property (nonatomic, retain) NSSet *nonPlayers;
-@property (nonatomic, retain) NSSet *players;
+@property(nonatomic, retain) NSString *run_id;
+@property(nonatomic, retain) NSSet *nonPlayers;
+@property(nonatomic, retain) NSSet *players;
 @end
 
 @interface ConfigurationInfo (CoreDataGeneratedAccessors)
 
 - (void)addNonPlayersObject:(NSManagedObject *)value;
+
 - (void)removeNonPlayersObject:(NSManagedObject *)value;
+
 - (void)addNonPlayers:(NSSet *)values;
+
 - (void)removeNonPlayers:(NSSet *)values;
 
 - (void)addPlayersObject:(NSManagedObject *)value;
+
 - (void)removePlayersObject:(NSManagedObject *)value;
+
 - (void)addPlayers:(NSSet *)values;
+
 - (void)removePlayers:(NSSet *)values;
 
 @end
