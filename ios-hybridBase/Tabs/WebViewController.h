@@ -10,6 +10,6 @@
     __weak IBOutlet UIWebView *webView;
 }
 
-- (IBAction)reloadWebPage:(id)sender;
+- (IBAction)reloadWebPage;
 
 @end

@@ -449,7 +449,7 @@
         <!--WebViewController-->
         <scene sceneID="Gb6-gu-ps8">
             <objects>
-                <viewController storyboardIdentifier="webViewViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mKZ-x3-g0Y" userLabel="WebViewController" customClass="WebViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="webViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mKZ-x3-g0Y" userLabel="WebViewController" customClass="WebViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8RO-EG-yx0"/>
                         <viewControllerLayoutGuide type="bottom" id="RPb-Zk-aep"/>

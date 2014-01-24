@@ -21,11 +21,12 @@
     [self.revealButtonItem setTarget:self.revealViewController];
     [self.revealButtonItem setAction:@selector( revealToggle: )];
     [self.navigationController.navigationBar addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    [self loadWebPage];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [self loadWebPage];
+
 }
 
 - (void)loadWebPage {
