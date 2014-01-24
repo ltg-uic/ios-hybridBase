@@ -37,7 +37,7 @@
 		C0A7DB9A2EBF3C70643283F7 /* WizardClassPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7DB8CA4C3AE0723858138 /* WizardClassPageViewController.m */; };
 		C0A7DCCBE44EB975C4184AFF /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7DDD2D1D8455DB8FB2788 /* SidebarViewController.m */; };
 		C0A7DD9FBC22C78ECB57014B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7D823660D6B1462AF9388 /* Foundation.framework */; };
-		C0A7DE4A746B0D99B06CE501 /* WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D05BDF9CF1F231118830 /* WebViewViewController.m */; };
+		C0A7DE4A746B0D99B06CE501 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D05BDF9CF1F231118830 /* WebViewController.m */; };
 		C0A7DFADAF2647CA0DAF4A59 /* WizardStudentPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7DB74F48F9280511DE841 /* WizardStudentPageViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +66,7 @@
 		70AC3650188B716100F5A4AB /* EventInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventInfo.m; sourceTree = "<group>"; };
 		B5EA3DFEADB045ACB4BDCDE3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A7D025B0879E2029FC2441 /* ios-hybridBase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-hybridBase-Prefix.pch"; sourceTree = "<group>"; };
-		C0A7D05BDF9CF1F231118830 /* WebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewViewController.m; sourceTree = "<group>"; };
+		C0A7D05BDF9CF1F231118830 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		C0A7D0C1A647409BCB7C034A /* ios-hybridBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-hybridBase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A7D11B8BF0457F0E2FA414 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C0A7D16F9D53FB04C09A5890 /* SideBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarCell.h; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		C0A7D9334A00A298ACF155D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0A7DA0771317AD76F405C38 /* ios-hybridBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-hybridBaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A7DA8B758F7FC926C8AFD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C0A7DABA853BEC859FE78B07 /* WebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewViewController.h; sourceTree = "<group>"; };
+		C0A7DABA853BEC859FE78B07 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		C0A7DACE31FFA4FCEFDBB4E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C0A7DB74F48F9280511DE841 /* WizardStudentPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardStudentPageViewController.m; sourceTree = "<group>"; };
 		C0A7DB8CA4C3AE0723858138 /* WizardClassPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardClassPageViewController.m; sourceTree = "<group>"; };
@@ -216,8 +216,8 @@
 				C0A7D44FEF3DA34FE5E5B99B /* WebViewNativeViewController.m */,
 				C0A7D4998CB3D6E2F20E07A1 /* NativeViewController.h */,
 				C0A7DCF6AB945BD88A0D66E4 /* NativeViewController.m */,
-				C0A7DABA853BEC859FE78B07 /* WebViewViewController.h */,
-				C0A7D05BDF9CF1F231118830 /* WebViewViewController.m */,
+				C0A7DABA853BEC859FE78B07 /* WebViewController.h */,
+				C0A7D05BDF9CF1F231118830 /* WebViewController.m */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -428,7 +428,7 @@
 				C0A7D146807D5F2104557204 /* SideBarCell.m in Sources */,
 				70AC364E188B6F7700F5A4AB /* PlayerDataPoint.m in Sources */,
 				C0A7D663A9B70C3AA697479F /* NativeViewController.m in Sources */,
-				C0A7DE4A746B0D99B06CE501 /* WebViewViewController.m in Sources */,
+				C0A7DE4A746B0D99B06CE501 /* WebViewController.m in Sources */,
 				C0A7D4E89528D47218764144 /* CoreDataTableViewController.m in Sources */,
 				C0A7D9D7A29A01C1462B3F29 /* WizardClassCell.m in Sources */,
 				C0A7DB9A2EBF3C70643283F7 /* WizardClassPageViewController.m in Sources */,
