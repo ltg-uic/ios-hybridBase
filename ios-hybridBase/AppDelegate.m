@@ -90,8 +90,8 @@
         dispatch_after(popTime, dispatch_get_main_queue(), ^(void) {
             UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPad"
                                                                      bundle:nil];
-            UIViewController *controller = (UIViewController *) [mainStoryboard instantiateViewControllerWithIdentifier:@"WizardNavController"];
-            [self.window.rootViewController presentViewController:controller animated:YES completion:nil];
+            // UIViewController *controller = (UIViewController *) [mainStoryboard instantiateViewControllerWithIdentifier:@"WizardNavController"];
+            // [self.window.rootViewController presentViewController:controller animated:YES completion:nil];
         });
     }
 }

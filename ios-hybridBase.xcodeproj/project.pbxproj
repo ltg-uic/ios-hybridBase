@@ -10,34 +10,37 @@
 		70374945188B120C003FF5E5 /* DataPointModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70374943188B120C003FF5E5 /* DataPointModel.xcdatamodeld */; };
 		70374949188B1748003FF5E5 /* ConfigurationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 70374948188B1748003FF5E5 /* ConfigurationInfo.m */; };
 		70374952188B1748003FF5E5 /* NonPlayerDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 70374951188B1748003FF5E5 /* NonPlayerDataPoint.m */; };
-		70A9204D188D9BA8001416F5 /* sidebar_icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A9204C188D9BA8001416F5 /* sidebar_icons.xcassets */; };
 		70AC364E188B6F7700F5A4AB /* PlayerDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AC364D188B6F7700F5A4AB /* PlayerDataPoint.m */; };
 		70AC3651188B716100F5A4AB /* EventInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AC3650188B716100F5A4AB /* EventInfo.m */; };
 		A5B50DB446B7403AA30CFDF3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EA3DFEADB045ACB4BDCDE3 /* libPods.a */; };
 		C0A7D095BEBB02298FEEB9FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0A7DBD81CB60F79171837CF /* InfoPlist.strings */; };
+		C0A7D0E367BDBD7BE6190374 /* sidebar_icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A7DEADA312B9B093C0C5CE /* sidebar_icons.xcassets */; };
 		C0A7D13EAFE13C2E44985456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0A7D49388AC99ADFAA4BA2D /* InfoPlist.strings */; };
 		C0A7D146807D5F2104557204 /* SideBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D4A59676D4EA2D58D8CE /* SideBarCell.m */; };
 		C0A7D15901A39E8C6D079AF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7DA8B758F7FC926C8AFD1 /* AppDelegate.m */; };
 		C0A7D217CFF3817925975C39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D24F6AEA3A3F51AE6E0D /* main.m */; };
+		C0A7D30DEBDFD0652D77708D /* WebViewNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D317F91624891E39F1AF /* WebViewNativeViewController.m */; };
 		C0A7D44DDFC1A8AB8E0BBCB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7D8BCC4D6017BCE881FB3 /* CoreGraphics.framework */; };
 		C0A7D4542D6DB6FE25C0F29D /* WizardReviewPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D4F0EE780FDB40D32D83 /* WizardReviewPageViewController.m */; };
+		C0A7D4E3E79C3CBCCCC84113 /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D564B40010B7865BF891 /* NativeViewController.m */; };
 		C0A7D4E89528D47218764144 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D3BB73D16D2C4BDFF1A2 /* CoreDataTableViewController.m */; };
-		C0A7D50CD932B8B558B6F217 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A7D309DF90DCB6F0AEFF04 /* Images.xcassets */; };
 		C0A7D5B61AC8DEB5B2453456 /* ios_hybridBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D4AA54CA36467949ECB7 /* ios_hybridBaseTests.m */; };
 		C0A7D5F25D5D202250873A63 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7DF41A4593C82D6A257C7 /* XCTest.framework */; };
-		C0A7D663A9B70C3AA697479F /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7DCF6AB945BD88A0D66E4 /* NativeViewController.m */; };
 		C0A7D6F41D065E43B6823D03 /* WizardStudentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D2DC1AAB8470A3F59217 /* WizardStudentCell.m */; };
 		C0A7D762C6EAE02FF1161DA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7D6464D9257F10C902664 /* UIKit.framework */; };
 		C0A7D8DFD28F3FD77BF0BCF9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A7D11B8BF0457F0E2FA414 /* MainStoryboard_iPad.storyboard */; };
 		C0A7D90B172EFF57A8AF29E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7D823660D6B1462AF9388 /* Foundation.framework */; };
+		C0A7D91158182F5BEB9779E2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D95086D4EB4C5B04DD4D /* WebViewController.m */; };
 		C0A7D9AE25430BBEAD7C0B71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7D6464D9257F10C902664 /* UIKit.framework */; };
 		C0A7D9D7A29A01C1462B3F29 /* WizardClassCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7DDF63E46BB56CB10B92B /* WizardClassCell.m */; };
-		C0A7D9DE50EA9DF550E06705 /* WebViewNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D44FEF3DA34FE5E5B99B /* WebViewNativeViewController.m */; };
 		C0A7DADFF16AC1843D529FE6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7DACE31FFA4FCEFDBB4E5 /* CoreData.framework */; };
 		C0A7DB9A2EBF3C70643283F7 /* WizardClassPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7DB8CA4C3AE0723858138 /* WizardClassPageViewController.m */; };
+		C0A7DC6E98D1E054B297701A /* webpage.html in Resources */ = {isa = PBXBuildFile; fileRef = C0A7D2CB21E34E4891208D73 /* webpage.html */; };
+		C0A7DCC58409E2101AF3A9A6 /* UIWebView+TS_JavaScriptContext.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D8D01E8CD212B2874584 /* UIWebView+TS_JavaScriptContext.m */; };
 		C0A7DCCBE44EB975C4184AFF /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7DDD2D1D8455DB8FB2788 /* SidebarViewController.m */; };
 		C0A7DD9FBC22C78ECB57014B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7D823660D6B1462AF9388 /* Foundation.framework */; };
-		C0A7DE4A746B0D99B06CE501 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D05BDF9CF1F231118830 /* WebViewController.m */; };
+		C0A7DEA5C3235F1FB19F6782 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7DC3E15D5830ACB2339A1 /* JavaScriptCore.framework */; };
+		C0A7DF3E970BDA3937DA02A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A7D08E512E20F8732D8E0F /* Images.xcassets */; };
 		C0A7DFADAF2647CA0DAF4A59 /* WizardStudentPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7DB74F48F9280511DE841 /* WizardStudentPageViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -59,53 +62,57 @@
 		70374948188B1748003FF5E5 /* ConfigurationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationInfo.m; sourceTree = "<group>"; };
 		70374950188B1748003FF5E5 /* NonPlayerDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonPlayerDataPoint.h; sourceTree = "<group>"; };
 		70374951188B1748003FF5E5 /* NonPlayerDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonPlayerDataPoint.m; sourceTree = "<group>"; };
-		70A9204C188D9BA8001416F5 /* sidebar_icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = sidebar_icons.xcassets; sourceTree = "<group>"; };
 		70AC364C188B6F7700F5A4AB /* PlayerDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDataPoint.h; sourceTree = "<group>"; };
 		70AC364D188B6F7700F5A4AB /* PlayerDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDataPoint.m; sourceTree = "<group>"; };
 		70AC364F188B716100F5A4AB /* EventInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventInfo.h; sourceTree = "<group>"; };
 		70AC3650188B716100F5A4AB /* EventInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventInfo.m; sourceTree = "<group>"; };
 		B5EA3DFEADB045ACB4BDCDE3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A7D025B0879E2029FC2441 /* ios-hybridBase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-hybridBase-Prefix.pch"; sourceTree = "<group>"; };
-		C0A7D05BDF9CF1F231118830 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		C0A7D08E512E20F8732D8E0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C0A7D0C1A647409BCB7C034A /* ios-hybridBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-hybridBase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A7D11B8BF0457F0E2FA414 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C0A7D16F9D53FB04C09A5890 /* SideBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarCell.h; sourceTree = "<group>"; };
 		C0A7D24F6AEA3A3F51AE6E0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0A7D2CB21E34E4891208D73 /* webpage.html */ = {isa = PBXFileReference; fileEncoding = 12; lastKnownFileType = text.html; path = webpage.html; sourceTree = "<group>"; };
 		C0A7D2DC1AAB8470A3F59217 /* WizardStudentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardStudentCell.m; sourceTree = "<group>"; };
-		C0A7D309DF90DCB6F0AEFF04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0A7D317F91624891E39F1AF /* WebViewNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewNativeViewController.m; sourceTree = "<group>"; };
 		C0A7D353722AB2C38C5E15B1 /* ios-hybridBaseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "ios-hybridBaseTests-Info.plist"; sourceTree = "<group>"; };
 		C0A7D3BB73D16D2C4BDFF1A2 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
 		C0A7D3ED30EE28585EABAF3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C0A7D44FEF3DA34FE5E5B99B /* WebViewNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewNativeViewController.m; sourceTree = "<group>"; };
-		C0A7D4998CB3D6E2F20E07A1 /* NativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeViewController.h; sourceTree = "<group>"; };
 		C0A7D4A59676D4EA2D58D8CE /* SideBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarCell.m; sourceTree = "<group>"; };
 		C0A7D4AA54CA36467949ECB7 /* ios_hybridBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_hybridBaseTests.m; sourceTree = "<group>"; };
 		C0A7D4B92E372E652E7DDFBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0A7D4F0EE780FDB40D32D83 /* WizardReviewPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardReviewPageViewController.m; sourceTree = "<group>"; };
+		C0A7D564B40010B7865BF891 /* NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeViewController.m; sourceTree = "<group>"; };
 		C0A7D5B713085FA565CEA493 /* WizardStudentPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardStudentPageViewController.h; sourceTree = "<group>"; };
 		C0A7D5C98EB2483751ACAEEC /* WizardReviewPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardReviewPageViewController.h; sourceTree = "<group>"; };
 		C0A7D6464D9257F10C902664 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0A7D67FB6B5043E6066CBB3 /* WizardStudentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardStudentCell.h; sourceTree = "<group>"; };
-		C0A7D6ACC2738DAB91279A46 /* WebViewNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewNativeViewController.h; sourceTree = "<group>"; };
+		C0A7D70E4271EFF9C249BED2 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		C0A7D74EEE097CF81CC2144E /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
 		C0A7D823660D6B1462AF9388 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C0A7D833B9C324EC4C1AA654 /* WizardClassPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardClassPageViewController.h; sourceTree = "<group>"; };
 		C0A7D8B3A7BB2F1D877EE298 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
 		C0A7D8BCC4D6017BCE881FB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0A7D8D01E8CD212B2874584 /* UIWebView+TS_JavaScriptContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TS_JavaScriptContext.m"; sourceTree = "<group>"; };
 		C0A7D9334A00A298ACF155D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0A7D95086D4EB4C5B04DD4D /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		C0A7DA0771317AD76F405C38 /* ios-hybridBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-hybridBaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A7DA8B758F7FC926C8AFD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C0A7DABA853BEC859FE78B07 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		C0A7DACE31FFA4FCEFDBB4E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C0A7DB74F48F9280511DE841 /* WizardStudentPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardStudentPageViewController.m; sourceTree = "<group>"; };
 		C0A7DB8CA4C3AE0723858138 /* WizardClassPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardClassPageViewController.m; sourceTree = "<group>"; };
 		C0A7DBFDAA513F093FB3AC14 /* LoginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginDelegate.h; sourceTree = "<group>"; };
-		C0A7DCF6AB945BD88A0D66E4 /* NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeViewController.m; sourceTree = "<group>"; };
+		C0A7DC3E15D5830ACB2339A1 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C0A7DC97F7FB6466207CD651 /* WebViewNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewNativeViewController.h; sourceTree = "<group>"; };
+		C0A7DCC7AD7CAA6EBE63519F /* UIWebView+TS_JavaScriptContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+TS_JavaScriptContext.h"; sourceTree = "<group>"; };
 		C0A7DD25C98F5EE926CDE3A2 /* ios-hybridBase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "ios-hybridBase-Info.plist"; sourceTree = "<group>"; };
 		C0A7DD2C85F1333F40442EB9 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		C0A7DDD2D1D8455DB8FB2788 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
 		C0A7DDF63E46BB56CB10B92B /* WizardClassCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardClassCell.m; sourceTree = "<group>"; };
 		C0A7DE282ACF22600CCC8550 /* WizardClassCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardClassCell.h; sourceTree = "<group>"; };
+		C0A7DE58084AF9E683E22E47 /* NativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeViewController.h; sourceTree = "<group>"; };
+		C0A7DEADA312B9B093C0C5CE /* sidebar_icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = sidebar_icons.xcassets; sourceTree = "<group>"; };
 		C0A7DF41A4593C82D6A257C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -119,6 +126,7 @@
 				C0A7D9AE25430BBEAD7C0B71 /* UIKit.framework in Frameworks */,
 				A5B50DB446B7403AA30CFDF3 /* libPods.a in Frameworks */,
 				C0A7DADFF16AC1843D529FE6 /* CoreData.framework in Frameworks */,
+				C0A7DEA5C3235F1FB19F6782 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,8 +166,22 @@
 				C0A7DDD2D1D8455DB8FB2788 /* SidebarViewController.m */,
 				C0A7D16F9D53FB04C09A5890 /* SideBarCell.h */,
 				C0A7D4A59676D4EA2D58D8CE /* SideBarCell.m */,
+				C0A7D56533BEFBA96C8E1EC6 /* Tabs */,
 			);
 			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		C0A7D56533BEFBA96C8E1EC6 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				C0A7DC97F7FB6466207CD651 /* WebViewNativeViewController.h */,
+				C0A7D317F91624891E39F1AF /* WebViewNativeViewController.m */,
+				C0A7DE58084AF9E683E22E47 /* NativeViewController.h */,
+				C0A7D564B40010B7865BF891 /* NativeViewController.m */,
+				C0A7D70E4271EFF9C249BED2 /* WebViewController.h */,
+				C0A7D95086D4EB4C5B04DD4D /* WebViewController.m */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 		C0A7D58E5F86C3B50BDEDE98 /* Delegate */ = {
@@ -185,13 +207,10 @@
 				C0A7DFE0018EB19206C58561 /* Supporting Files */,
 				C0A7D4B92E372E652E7DDFBF /* AppDelegate.h */,
 				C0A7DA8B758F7FC926C8AFD1 /* AppDelegate.m */,
-				C0A7D309DF90DCB6F0AEFF04 /* Images.xcassets */,
-				70A9204C188D9BA8001416F5 /* sidebar_icons.xcassets */,
 				C0A7D11B8BF0457F0E2FA414 /* MainStoryboard_iPad.storyboard */,
 				C0A7DABD0F19F3C815432AFD /* Login */,
 				C0A7D06BF0EFF1636AAD5916 /* Entity */,
 				C0A7D13F85A22B59AD3C6A5B /* Sidebar */,
-				C0A7DA73B57B3D790D4C3B8F /* Tabs */,
 			);
 			path = "ios-hybridBase";
 			sourceTree = "<group>";
@@ -205,21 +224,9 @@
 				C0A7DF41A4593C82D6A257C7 /* XCTest.framework */,
 				B5EA3DFEADB045ACB4BDCDE3 /* libPods.a */,
 				C0A7DACE31FFA4FCEFDBB4E5 /* CoreData.framework */,
+				C0A7DC3E15D5830ACB2339A1 /* JavaScriptCore.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C0A7DA73B57B3D790D4C3B8F /* Tabs */ = {
-			isa = PBXGroup;
-			children = (
-				C0A7D6ACC2738DAB91279A46 /* WebViewNativeViewController.h */,
-				C0A7D44FEF3DA34FE5E5B99B /* WebViewNativeViewController.m */,
-				C0A7D4998CB3D6E2F20E07A1 /* NativeViewController.h */,
-				C0A7DCF6AB945BD88A0D66E4 /* NativeViewController.m */,
-				C0A7DABA853BEC859FE78B07 /* WebViewController.h */,
-				C0A7D05BDF9CF1F231118830 /* WebViewController.m */,
-			);
-			path = Tabs;
 			sourceTree = "<group>";
 		};
 		C0A7DABD0F19F3C815432AFD /* Login */ = {
@@ -248,6 +255,15 @@
 				C0A7DB74F48F9280511DE841 /* WizardStudentPageViewController.m */,
 			);
 			path = Wizard;
+			sourceTree = "<group>";
+		};
+		C0A7DCD55D97016220853AEB /* Other libs */ = {
+			isa = PBXGroup;
+			children = (
+				C0A7DCC7AD7CAA6EBE63519F /* UIWebView+TS_JavaScriptContext.h */,
+				C0A7D8D01E8CD212B2874584 /* UIWebView+TS_JavaScriptContext.m */,
+			);
+			name = "Other libs";
 			sourceTree = "<group>";
 		};
 		C0A7DD78D7FB55A3D0ABA622 /* Supporting Files */ = {
@@ -287,6 +303,10 @@
 				C0A7D24F6AEA3A3F51AE6E0D /* main.m */,
 				C0A7D025B0879E2029FC2441 /* ios-hybridBase-Prefix.pch */,
 				C0A7DD2C85F1333F40442EB9 /* Constants.h */,
+				C0A7D2CB21E34E4891208D73 /* webpage.html */,
+				C0A7D08E512E20F8732D8E0F /* Images.xcassets */,
+				C0A7DEADA312B9B093C0C5CE /* sidebar_icons.xcassets */,
+				C0A7DCD55D97016220853AEB /* Other libs */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -363,9 +383,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0A7D13EAFE13C2E44985456 /* InfoPlist.strings in Resources */,
-				C0A7D50CD932B8B558B6F217 /* Images.xcassets in Resources */,
 				C0A7D8DFD28F3FD77BF0BCF9 /* MainStoryboard_iPad.storyboard in Resources */,
-				70A9204D188D9BA8001416F5 /* sidebar_icons.xcassets in Resources */,
+				C0A7DC6E98D1E054B297701A /* webpage.html in Resources */,
+				C0A7DF3E970BDA3937DA02A2 /* Images.xcassets in Resources */,
+				C0A7D0E367BDBD7BE6190374 /* sidebar_icons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,17 +445,18 @@
 				70AC3651188B716100F5A4AB /* EventInfo.m in Sources */,
 				70374945188B120C003FF5E5 /* DataPointModel.xcdatamodeld in Sources */,
 				C0A7DCCBE44EB975C4184AFF /* SidebarViewController.m in Sources */,
-				C0A7D9DE50EA9DF550E06705 /* WebViewNativeViewController.m in Sources */,
 				C0A7D146807D5F2104557204 /* SideBarCell.m in Sources */,
 				70AC364E188B6F7700F5A4AB /* PlayerDataPoint.m in Sources */,
-				C0A7D663A9B70C3AA697479F /* NativeViewController.m in Sources */,
-				C0A7DE4A746B0D99B06CE501 /* WebViewController.m in Sources */,
 				C0A7D4E89528D47218764144 /* CoreDataTableViewController.m in Sources */,
 				C0A7D9D7A29A01C1462B3F29 /* WizardClassCell.m in Sources */,
 				C0A7DB9A2EBF3C70643283F7 /* WizardClassPageViewController.m in Sources */,
 				C0A7D4542D6DB6FE25C0F29D /* WizardReviewPageViewController.m in Sources */,
 				C0A7D6F41D065E43B6823D03 /* WizardStudentCell.m in Sources */,
 				C0A7DFADAF2647CA0DAF4A59 /* WizardStudentPageViewController.m in Sources */,
+				C0A7D30DEBDFD0652D77708D /* WebViewNativeViewController.m in Sources */,
+				C0A7D4E3E79C3CBCCCC84113 /* NativeViewController.m in Sources */,
+				C0A7D91158182F5BEB9779E2 /* WebViewController.m in Sources */,
+				C0A7DCC58409E2101AF3A9A6 /* UIWebView+TS_JavaScriptContext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
