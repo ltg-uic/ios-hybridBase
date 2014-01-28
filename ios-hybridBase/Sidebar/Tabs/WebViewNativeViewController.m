@@ -11,10 +11,16 @@
 #import "SWRevealViewController.h"
 #import "UIWebView+TS_JavaScriptContext.h"
 
-@interface WebViewNativeViewController () <UITextFieldDelegate, TSWebViewDelegate>
+
+@interface WebViewNativeViewController () <UITextFieldDelegate, TSWebViewDelegate> {
+    JSContext *javaScriptContext;
+}
+
 @property(weak, nonatomic) IBOutlet UIWebView *splitWebView;
 @property(weak, nonatomic) IBOutlet UITextField *nativeTextField;
 @property(nonatomic) IBOutlet UIBarButtonItem *revealButtonItem;
+
+
 @end
 
 @implementation WebViewNativeViewController
@@ -30,8 +36,10 @@
     _nativeTextField.delegate = self;
 }
 
-- (void)webView:(UIWebView *)webView didCreateJavaScriptContext:(JSContext *)ctx {
-    ctx[@"sayHello"] = ^{
+- (void)webView:(UIWebView *)webView didCreateJavaScriptContext:(JSContext *)JSC {
+
+    javaScriptContext = JSC;
+    javaScriptContext[@"sayHello"] = ^{
 
         dispatch_async(dispatch_get_main_queue(), ^{
 
@@ -46,7 +54,7 @@
     };
 
 
-    ctx[@"textChanged"] = ^(JSValue *textbox) {
+    javaScriptContext[@"textChanged"] = ^(JSValue *textbox) {
 
         JSValue *v = textbox[@"value"];
 
@@ -55,14 +63,18 @@
         });
     };
 
-    ctx[@"viewController"] = self;
+    javaScriptContext[@"viewController"] = self;
+}
+
+- (void)updateJavaScriptTextboxWithText:(NSString *)text {
+    JSValue *function = javaScriptContext[@"addText"];
+    JSValue *result = [function callWithArguments:@[text]];
 }
 
 
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
 
-    NSLog(@"@d", string);
-
+    [self updateJavaScriptTextboxWithText:[textField.text stringByAppendingString:string]];
     return YES;
 }
 
