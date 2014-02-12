@@ -358,6 +358,11 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = "Anthony Perritano";
+				TargetAttributes = {
+					C0A7D10E0309503D2B32A4C2 = {
+						DevelopmentTeam = CA7EY357R9;
+					};
+				};
 			};
 			buildConfigurationList = C0A7DF1B6CBA1DFAD6BDB516 /* Build configuration list for PBXProject "ios-hybridBase" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -560,10 +565,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-hybridBase/ios-hybridBase-Prefix.pch";
 				INFOPLIST_FILE = "ios-hybridBase/ios-hybridBase-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -625,10 +633,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios-hybridBase/ios-hybridBase-Prefix.pch";
 				INFOPLIST_FILE = "ios-hybridBase/ios-hybridBase-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
