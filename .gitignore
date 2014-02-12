@@ -30,4 +30,6 @@ DerivedData
 
 #CocoaPods
 Pods
+Pods/*
+Podfile.lock
 *.xcuserstate
