@@ -22,6 +22,7 @@
     [self.revealButtonItem setAction:@selector( revealToggle: )];
     [self.navigationController.navigationBar addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     [self loadWebPage];
+    self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
