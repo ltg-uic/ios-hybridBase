@@ -8,8 +8,8 @@
 
 #import "WizardStudentPageViewController.h"
 #import "WizardClassCell.h"
-#import "NSManagedObject+MagicalFinders.h"
 #import "WizardClassPageViewController.h"
+#import "NSManagedObject+MagicalFinders.h"
 
 @implementation WizardClassPageViewController
 

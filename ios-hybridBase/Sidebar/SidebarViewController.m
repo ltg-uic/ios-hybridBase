@@ -1,6 +1,5 @@
 #import "SideBarCell.h"
 #import "SWRevealViewController.h"
-#import "WebViewController.h"
 
 @interface SidebarViewController () {
 
@@ -44,9 +43,12 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // configure the destination view controller:
 
-    if ([segue.destinationViewController isKindOfClass:[WebViewController class]]) {
-        return;
-    }
+//    if ([segue.destinationViewController isKindOfClass:[WebViewController class]]) {
+//
+////        WebViewController *web = segue.destinationViewController;
+////        [web reloadWebPage];
+//        return;
+//    }
 //    if ( [segue.destinationViewController isKindOfClass: [WebViewController class]] &&
 //        [sender isKindOfClass:[UITableViewCell class]] )
 //    {
@@ -135,25 +137,26 @@
 
             // ... and the second row (=1) corresponds to the "WebViewNativeViewController".
     else if (row == 2) {
-        WebViewController *webViewController = [_controllerMap objectForKey:@"webViewController"];
-        if (![frontNavigationController.topViewController isKindOfClass:[WebViewController class]]) {
-
-            if (webViewController == nil ) {
-                UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPad"
-                                                                         bundle:nil];
-                webViewController = (WebViewController *) [mainStoryboard instantiateViewControllerWithIdentifier:@"webViewController"];
-                //[webViewController reloadWebPage];
-                [_controllerMap setObject:webViewController forKey:@"webViewController"];
-
-            }
-
-            UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:webViewController];
-            [revealController setFrontViewController:navigationController animated:YES];
-        }
-                // Seems the user attempts to 'switch' to exactly the same controller he came from!
-        else {
-            [revealController revealToggle:self];
-        }
+//        WebViewController *webViewController = [_controllerMap objectForKey:@"webViewController"];
+//        if (![frontNavigationController.topViewController isKindOfClass:[WebViewController class]]) {
+//
+//            if (webViewController == nil ) {
+//                UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPad"
+//                                                                         bundle:nil];
+//                webViewController = (WebViewController *) [mainStoryboard instantiateViewControllerWithIdentifier:@"webViewController"];
+//
+//                [_controllerMap setObject:webViewController forKey:@"webViewController"];
+//
+//            }
+//
+//            UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:webViewController];
+//            [revealController setFrontViewController:navigationController animated:YES];
+//
+//        }
+//                // Seems the user attempts to 'switch' to exactly the same controller he came from!
+//        else {
+//            [revealController revealToggle:self];
+//        }
 
     }
     else if (row == 3) {

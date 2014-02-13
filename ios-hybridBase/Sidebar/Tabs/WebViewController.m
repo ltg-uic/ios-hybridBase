@@ -31,8 +31,14 @@
 }
 
 - (void)loadWebPage {
-    NSString *fullURL = @"http://hg.badger.encorelab.org/mobile.html?runId=5at&username=baf";
-//    NSString *fullURL = @"http://142.150.100.171:8080/mobile.html?runId=5at&username=baf";
+
+    NSString *userName = [[NSUserDefaults standardUserDefaults] objectForKey:USER_NAME];
+    NSString *runIdName = [[NSUserDefaults standardUserDefaults] objectForKey:RUN_ID];
+
+
+    NSString *fullURL = [NSString stringWithFormat:@"http://hg.badger.encorelab.org/mobile.html?runId=%@&username=%@", runIdName, userName];
+
+
     NSURL *url = [NSURL URLWithString:fullURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [webView loadRequest:requestObj];

@@ -11,6 +11,7 @@
 
 #define USER_NAME            @"USER_NAME"
 #define USER_PASSWORD        @"USER_PASSWORD"
+#define RUN_ID               @"RUN_ID"
 #define CONFIGURATION_URL    @"http://ltg.evl.uic.edu:9292/hunger-games-fall-13/configuration/"
 #define ROSTER_URL           @"http://ltg.evl.uic.edu:9000/runs/"
 #endif

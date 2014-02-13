@@ -44,13 +44,13 @@
 - (IBAction)doLoginWithStudentName:(id)sender {
 
 //
-//    NSString *xmppId = [_configurationInfo.run_id stringByAppendingFormat:@"#%@", [_choosen_student lowercaseString]];
+//  NSString *xmppId = [_configurationInfo.run_id stringByAppendingFormat:@"#%@", [_choosen_student lowercaseString]];
 //
-//    [[NSUserDefaults standardUserDefaults] setObject:[xmppId stringByAppendingString:XMPP_TAIL] forKey:kXMPPmyJID];
+    [[NSUserDefaults standardUserDefaults] setObject:[_choosen_student lowercaseString] forKey:USER_NAME];
 //
-//    [[NSUserDefaults standardUserDefaults] setObject:xmppId forKey:kXMPPmyPassword];
+    [[NSUserDefaults standardUserDefaults] setObject:[_configurationInfo.run_id lowercaseString] forKey:RUN_ID];
 //
-//    [[NSUserDefaults standardUserDefaults] setObject:_configurationInfo.run_id forKey:kXMPProomJID];
+    //[[NSUserDefaults standardUserDefaults] setObject:_configurationInfo.run_id forKey:kXMPProomJID];
 //
 //    DDLogVerbose(@"HARVEST: USER LOGGED IN %@ with RUNID %@", xmppId, _configurationInfo.run_id);
 
