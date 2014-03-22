@@ -201,7 +201,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0A7D985292C263DD6FDC43A /* ios-hybridBase */ = {
+		C0A7D985292C263DD6FDC43A /* ios-ambient-channels */ = {
 			isa = PBXGroup;
 			children = (
 				C0A7DFE0018EB19206C58561 /* Supporting Files */,
@@ -212,6 +212,7 @@
 				C0A7D06BF0EFF1636AAD5916 /* Entity */,
 				C0A7D13F85A22B59AD3C6A5B /* Sidebar */,
 			);
+			name = "ios-ambient-channels";
 			path = "ios-hybridBase";
 			sourceTree = "<group>";
 		};
@@ -275,12 +276,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C0A7DDC333F84A9083701F71 /* ios-hybridBaseTests */ = {
+		C0A7DDC333F84A9083701F71 /* ios-ambient-channelsTests */ = {
 			isa = PBXGroup;
 			children = (
 				C0A7DD78D7FB55A3D0ABA622 /* Supporting Files */,
 				C0A7D4AA54CA36467949ECB7 /* ios_hybridBaseTests.m */,
 			);
+			name = "ios-ambient-channelsTests";
 			path = "ios-hybridBaseTests";
 			sourceTree = "<group>";
 		};
@@ -289,8 +291,8 @@
 			children = (
 				C0A7D9145D25D848B2C684D5 /* Products */,
 				C0A7D994612BACDFE2F0A44C /* Frameworks */,
-				C0A7D985292C263DD6FDC43A /* ios-hybridBase */,
-				C0A7DDC333F84A9083701F71 /* ios-hybridBaseTests */,
+				C0A7D985292C263DD6FDC43A /* ios-ambient-channels */,
+				C0A7DDC333F84A9083701F71 /* ios-ambient-channelsTests */,
 				632D5998FFEF4A599C218C80 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
@@ -536,7 +538,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-v";
 				SDKROOT = iphoneos7.1;
@@ -605,7 +607,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = "-v";
 				SDKROOT = iphoneos7.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
