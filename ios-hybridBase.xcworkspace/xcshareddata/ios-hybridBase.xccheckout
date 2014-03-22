@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>FDFEDB23-99AB-4546-A012-CC757B88B021</string>
+	<string>B75FBA78-2EE9-4A1A-B47E-24CC92B20281</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ios-hybridBase</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>4736BC65-CD39-4B6B-B46D-D0BD9232676B</key>
+		<key>393CA086-BCAF-41BB-AED4-9648BC4F8619</key>
 		<string>https://github.com/ltg-uic/ios-hybridBase.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ios-hybridBase.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>4736BC65-CD39-4B6B-B46D-D0BD9232676B</key>
+		<key>393CA086-BCAF-41BB-AED4-9648BC4F8619</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4736BC65-CD39-4B6B-B46D-D0BD9232676B</string>
+	<string>393CA086-BCAF-41BB-AED4-9648BC4F8619</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>4736BC65-CD39-4B6B-B46D-D0BD9232676B</string>
+			<string>393CA086-BCAF-41BB-AED4-9648BC4F8619</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ios-hybridBase</string>
 		</dict>
